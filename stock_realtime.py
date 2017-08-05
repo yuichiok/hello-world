@@ -8,6 +8,9 @@ def fetchPreMarket(symbol, exchange):
     url = link+"%s:%s" % (exchange, symbol)
     u = http.request('GET',url)
     content = u.read()
+    
+    print ("hello, world!")
+    
     data = json.loads(content[3:])
     info = data[0]
     t = str(info["elt"])    # time stamp
