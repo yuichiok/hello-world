@@ -1,6 +1,4 @@
-# hello-world
-Yuichi Okugawa's repository
+# Stock Manager
+Manages stock market informations.
 
-I am changing this README!
-
-I added this stuff.
+More files will be added soon.
